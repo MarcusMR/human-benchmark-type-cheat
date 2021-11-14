@@ -7,7 +7,7 @@ from PIL import ImageGrab, Image
 from bs4 import BeautifulSoup as bs
 import webbrowser
 def text_reader_and_writer():
-    pytesseract.pytesseract.tesseract_cmd = r'C:/Users/marcu/Desktop/human bencmark/tessarect/tesseract.exe'
+    pytesseract.pytesseract.tesseract_cmd = r'path'
 
     webbrowser.open_new_tab("https://humanbenchmark.com/tests/typing")
     time.sleep(5)
